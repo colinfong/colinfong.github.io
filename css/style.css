@@ -1,0 +1,72 @@
+.daily-bruin-link {
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.daily-bruin-link a{
+  background-color: transparent;
+}
+
+.daily-bruin-link a img{
+  width: 100px;
+}
+
+.jumbotron {
+  background-image: url("../photos/cover photo.jpg");
+  background-size: cover;
+  background-position: center;
+  display: block;
+  color: white;
+  box-shadow: 0px 3px 3px #BBB;
+  text-shadow: 1px 1px 1px #BBB;
+}
+
+.content {
+  font-family: "Karma";
+  font-size: 18px;
+}
+
+.photo-caption {
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+.parallax-window {
+    min-height: 1000px;
+    height: auto;
+    background: transparent;
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+	.container{
+		margin: 0 auto;
+    width: 90%;
+	}
+  .jumbotron h1{
+    padding: 30px;
+    padding-top: 400px;
+    padding-bottom: 240px;
+    font-size: 85px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+
+  }
+}
+
+@media only screen and (max-device-width: 500px) {
+  .container {
+    margin: 0 auto;
+    width: 100%;
+  }
+  p{
+  	font-size: 35px;
+  }
+
+  .jumbotron h1{
+    padding-top: 500px;
+    padding-bottom: 15px;
+    font-size: 65px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}
