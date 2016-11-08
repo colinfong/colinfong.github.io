@@ -37,7 +37,7 @@
 
 .parallax-window {
     min-height: 1000px;
-    height: auto;
+    /*height: auto;*/
     background: transparent;
     width: 100%;
 }
